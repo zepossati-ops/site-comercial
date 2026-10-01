@@ -1,6 +1,6 @@
 // ============ PARTE PARA EDITAR ============
 // Cole aqui a URL do seu Worker publicado no Cloudflare (ex.: "https://ace-talentos-chat.SEU-USUARIO.workers.dev")
-const CHAT_API_URL = "https://SEU-WORKER.SEU-SUBDOMINIO.workers.dev";
+const CHAT_API_URL = "https://agente-vendas.site-pessoal.workers.dev";
 
 // Mensagem exibida assim que o chat é aberto pela primeira vez
 const MENSAGEM_BOAS_VINDAS = "Olá! Sou o assistente virtual do Talentos & Oportunidades. Posso te ajudar a conhecer os programas de Estágio e Aprendiz da ACE Pinhal. Como posso ajudar?";
