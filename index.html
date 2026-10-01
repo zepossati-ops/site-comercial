@@ -6,6 +6,7 @@
   <title>Talentos &amp; Oportunidades | ACE Pinhal</title>
   <meta name="description" content="Programa Talentos &amp; Oportunidades da ACE Pinhal: estágio e aprendizagem para empresas contratarem com segurança e suporte completo.">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/chat.css">
 </head>
 <body>
 
@@ -242,6 +243,30 @@
     </div>
   </footer>
 
+  <!-- Assistente de vendas (chat) -->
+  <div class="chat-widget" id="chatWidget">
+    <button type="button" class="chat-widget__botao" id="chatBotao" aria-expanded="false" aria-controls="chatPainel">
+      <span class="chat-widget__icone" aria-hidden="true">💬</span>
+      <span>Fale com a gente</span>
+    </button>
+
+    <section class="chat-widget__painel" id="chatPainel" hidden aria-label="Assistente de vendas Talentos &amp; Oportunidades">
+      <header class="chat-widget__cabecalho">
+        <strong>Assistente Talentos &amp; Oportunidades</strong>
+        <button type="button" class="chat-widget__fechar" id="chatFechar" aria-label="Fechar chat">&times;</button>
+      </header>
+
+      <div class="chat-widget__mensagens" id="chatMensagens" role="log" aria-live="polite"></div>
+
+      <form class="chat-widget__form" id="chatForm">
+        <label class="sr-only" for="chatInput">Digite sua mensagem</label>
+        <input type="text" id="chatInput" placeholder="Digite sua pergunta..." autocomplete="off" maxlength="500" required>
+        <button type="submit" class="botao botao--primario">Enviar</button>
+      </form>
+    </section>
+  </div>
+
   <script src="js/script.js"></script>
+  <script src="js/chat.js"></script>
 </body>
 </html>
