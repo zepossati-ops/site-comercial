@@ -9,15 +9,21 @@ Site estático em HTML, CSS e JavaScript puros, sem frameworks e sem etapa de bu
 ## Estrutura
 
 ```
-index.html      Página principal (todas as seções do site)
-css/style.css   Estilos e paleta de cores
-js/script.js    Menu mobile e ano do rodapé
+index.html                  Página principal (todas as seções do site)
+css/style.css                Estilos e paleta de cores
+css/chat.css                 Estilos do widget de chat
+js/script.js                 Menu mobile e ano do rodapé
+js/chat.js                   Lógica do widget de chat (assistente de vendas)
+cloudflare-worker/           Worker do Cloudflare que atende o chat (SYSTEM_PROMPT, modelo de IA)
+api ace talentos/            Scripts e roteiros de teste do prompt do assistente (fora da publicação do site)
 ```
 
-## Pendências de conteúdo
+## Publicação
 
-Vários trechos do texto estão marcados com `[PREENCHER]` — são informações reais (valores, prazos, redes sociais, endereço, depoimentos) que ainda precisam ser confirmadas antes da publicação final.
+- Site publicado via GitHub Pages em https://zepossati-ops.github.io/site-comercial
+- Worker do chat publicado em https://agente-vendas.site-pessoal.workers.dev — deploy com `npx wrangler deploy` dentro de `cloudflare-worker/`
 
-## Próximo passo
+## Pendências conhecidas
 
-Ao final do `</body>` do `index.html` há espaço reservado para incluir o `chat.js` do assistente de vendas.
+- Seção "Depoimentos" foi removida do site (menu e HTML) por falta de depoimentos reais de empresas — reavaliar quando houver conteúdo real.
+- Faltam meta tags de compartilhamento social (Open Graph/Twitter Card), `robots.txt` e `sitemap.xml`.
