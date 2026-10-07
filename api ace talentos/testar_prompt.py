@@ -27,7 +27,7 @@ CONTATO = "3661-9300"
 CASOS = [
     (1, "Empresa - primeiro contato",
      "Bom dia, gostaria de saber como faço para contratar um aprendiz.",
-     ["284", "402", "integração", CONTATO],
+     ["283,50", "405", "integração", CONTATO],
      ["Lanchonete", "Varejista"]),
     (2, "Empresa - cota e custos",
      "Tenho um mercado com 20 funcionários. Sou obrigado a contratar aprendiz? Quanto vou gastar?",

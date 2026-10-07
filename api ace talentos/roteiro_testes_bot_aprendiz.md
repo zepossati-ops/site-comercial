@@ -40,7 +40,7 @@
 
 - [ ] ★ Explica o programa de forma resumida (contrato de até 24 meses, jornada de 4h ou 6h)
 - [ ] ★ Cita os 4 cursos: Auxiliar de Escritório, Operador de Lojas e Mercados, Embalador a Mão e Auxiliar de Produção
-- [ ] ★ Mostra os dois valores (R$ 284 para associado / R$ 402 para não associado, por aprendiz, por mês)
+- [ ] ★ Mostra os dois valores (R$ 283,50 para associado / R$ 405,00 para não associado, por aprendiz, por mês)
 - [ ] ★ Encaminha para o agente de integração
 - [ ] ★ **Não** pede CPF ou RG no chat
 - [ ] ★ **Não** cita Auxiliar de Lanchonete nem Comércio Varejista
